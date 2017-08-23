@@ -24,6 +24,8 @@ input{
 }
 
 .clearfix{overflow:hidden}
+
+
 .clearfix:before,.clearfix:after{
     display:table;
     content:"";

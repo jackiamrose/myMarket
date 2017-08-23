@@ -16,6 +16,13 @@
     width:10.8rem;
 }
 
+.clear:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+
 .right a{
     cursor:pointer;
     margin-left:0.05rem;
@@ -62,15 +69,21 @@
 }
 
 .nav-pic{
-    display:inline-block;
     position:relative;
+    display:inline-block;
+
 }
 
 .mymarket{
-    background: url('../../../image/liantu.png')  no-repeat;
+    background: url('../../../image/liantu.png') center center no-repeat;
+    background-size:100% 100%;
     position:absolute;
     width:0.63rem;
     height:0.63rem;
     right:0;
-    top:0.4rem;
+    display:none;
+}
+
+.nav-pic:hover .mymarket{
+    display:inline-block;
 }
