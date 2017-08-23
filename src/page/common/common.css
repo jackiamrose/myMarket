@@ -1,0 +1,60 @@
+*{padding:0;margin:0}
+html{
+    font-size:625%
+}
+
+body{
+    background-color: #f6f6f6;
+    font-family:"微软雅黑";
+    font-size:0.12rem;
+}
+
+img{
+    border:none
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+li{list-style:none}
+input{
+    outline:none;
+    background:#fff
+}
+
+.clearfix{overflow:hidden}
+.clearfix:before,.clearfix:after{
+    display:table;
+    content:"";
+}
+.clearfix:after{clear:both}
+
+.container{
+    font-size:0.12rem;
+    width:10.8rem;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden
+}
+
+/*全局通用样式*/
+.hide{display:none}
+
+.link{
+    color:#999;
+    cursor:pointer
+}
+
+.link:hover{
+    color:#e80012;
+}
+.left{float:left}
+.right{float:right}
+
+
+
+
+
+
+

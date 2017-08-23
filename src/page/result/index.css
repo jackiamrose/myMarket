@@ -1,0 +1,27 @@
+.con{
+    background:#fff;
+    padding:0.5rem 0 0.3rem;
+}
+
+.result-con{
+    display:none;
+    text-align:center
+}
+
+ .result-title{
+    padding:0.2rem 0;
+}
+
+ .result-content{
+     padding:0.3rem 0;
+ }
+
+ .btn{
+     border:1px solid #999;
+     padding:0.05rem;
+ }
+
+ .btn:hover{
+     border:1px solid #e72955;
+ }
+

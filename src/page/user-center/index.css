@@ -1,0 +1,72 @@
+.brandNav{
+    background-color: #d1d1d1;
+    min-width:10.8rem;
+}
+
+.cont{
+    margin:0.3rem auto 0.3rem ;
+    height:0.3rem;
+    line-height:0.3rem;
+}
+
+.nav-list a:last-child{
+     color:#e72955;
+}
+/*右侧个人中心信息*/
+.section{
+    float:left;
+    width:9rem;
+}
+
+.info-title{
+    height:0.4rem;
+    line-height:0.4rem;
+    background-color: #fff;
+    font-size:0.18rem;
+    font-weight:500;
+    text-indent: 0.1rem;
+}
+
+.information{
+    margin-top:0.15rem;
+    background-color: #fff;
+    padding:0.15rem 0;
+    overflow:hidden;
+}
+
+.info-control{
+    margin-bottom:0.15rem;
+    line-height:0.3rem;
+    font-size:0.14rem;
+}
+
+.info-control label,.info-control input,.info-control span{
+    /* vertical-align:middle;*/
+}
+
+.info-control label{
+    display:inline-block;
+    text-align: right;
+    width:0.6rem
+}
+
+.info-control input{
+    padding:0.03rem;
+    display:none;
+}
+
+.edit{
+    display:inline-block;
+    background-color: #e72955;
+    color:#fff;
+    padding:0.03rem;
+    width:0.8rem;
+    text-align: center;
+    margin-left:0.6rem;
+    cursor:pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none ;
+    -webkit-user-select: none;
+}
+

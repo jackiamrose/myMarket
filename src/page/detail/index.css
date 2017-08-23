@@ -1,0 +1,158 @@
+.con{
+    display:flex;
+    flex-direction: row;
+}
+
+.left-detail{
+    width:3.8rem;
+
+}
+
+.left-detail ul:first-child li{
+    width:100%;
+}
+
+.left-detail ul:first-child li img{
+    width:100%
+}
+
+.left-detail ul:last-child{
+    display:flex;
+    flex-direction:row;
+    padding:0.02rem 0.05rem;
+}
+
+.left-detail ul:last-child li{
+    flex:1;
+    margin-right:0.03rem;
+    border:0.02rem solid transparent;
+    cursor:pointer;
+}
+
+.left-detail ul:last-child li:first-child{
+    border:0.02rem solid #e72955;
+}
+
+
+.left-detail ul:last-child li img{
+    width:100%;
+}
+
+.right-detail{
+    flex:1;
+    margin-left:0.3rem;
+}
+
+.right-detail .product dt{
+    margin-bottom:0.02rem;
+
+}
+
+.right-detail dd{
+    font-size:0.14rem;
+    margin-bottom:0.1rem;
+    color:#999;
+}
+
+.right-detail .product-title{
+    color:#e72955;
+    height:0.3rem;
+}
+
+.right-detail span{
+    color:#000
+}
+
+.product-price{
+    margin-bottom:0.3rem;
+}
+
+.right-detail .product-price span{
+    color:#f00;
+}
+
+.product-price .price{
+    font-size:0.24rem;
+}
+
+.product-num span{
+    color:#999;
+}
+
+.product-buyNum span.minus,.product-buyNum span.plus{
+    display:inline-block;
+    width:0.2rem;
+    height:0.2rem;
+    text-align: center;
+    border:0.01rem solid #666;
+    color:#666;
+    cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select:none;
+}
+
+.product-buyNum span i{
+
+}
+
+.product-buyNum input{
+    width:0.3rem;
+    height:0.3rem;
+    padding:0.02rem;
+    text-align: center;
+    margin:0 0.03rem;
+}
+
+.product-msg{
+    display:none;
+}
+
+.product-msg span{
+    background-color: #d1d1d1;
+}
+
+.product-joinCar .button{
+    padding:0.02rem 0.03rem;
+    text-align: center;
+    width:1.4rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    font-size:0.16rem;
+    font-weight:500;
+    color:#fff;
+    background-color: #e72955;
+    display:inline-block;
+    cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select:none;
+}
+
+.button:hover{
+    background-color: #e70855;
+}
+
+.main-detail{
+    background-color: #f1f1f1;
+    padding:0.2rem;
+    margin-top:0.3rem;
+}
+.main-detail ul li{
+    height:0.4rem;
+    line-height:0.4rem;
+    color:#fff;
+}
+
+.main-detail ul li span{
+    padding:0.02rem 0.03rem;
+    background-color: #e72955;
+}
+
+
+.main-detail .detail-img img{
+    width:100%;
+    border-color:#f1f1f1;
+}

@@ -1,0 +1,83 @@
+.register{
+    margin:0.3rem auto 0.5rem;
+    width:3rem;
+    padding:0 1rem 0.2rem 1rem;
+    background-color:#fff;
+    border-radius:0.03rem;
+}
+.user-title{
+    height:0.3rem;
+    line-height:0.3rem;
+    font-size:0.24rem;
+    padding:0.3rem 0 0.2rem 0.02rem;
+}
+
+.user-title p{
+    border-bottom:0.01rem solid #999;
+}
+
+.user-control{
+    margin-bottom:0.2rem;
+    font-size:0.16rem;
+
+}
+
+.user-control:last-of-type{
+    margin-top:0.3rem
+}
+
+.control{
+    height:0.2rem;
+    font-size:0.14rem;
+    line-height: 0.2rem;
+    color:#f00;
+}
+.info-msg{
+    visibility: visible;
+}
+
+
+.user-control label{
+    text-align:right;
+    display:inline-block;
+    width:0.8rem;
+}
+
+.user-input{
+    border:1px solid #999;
+    display:inline-block;
+
+}
+.user-input input,.user-input i{
+    vertical-align:middle;
+}
+
+.user-input i{
+    display:inline-block;
+    padding:0 0.03rem ;
+}
+.user-input input{
+    outline: none;
+    border:none;
+    display:inline-block;
+    height:0.3rem;
+}
+
+.button{
+    width:1.92rem;
+    padding:0.03rem 0.04rem;
+    font-size:0.16rem;
+    text-align: center;
+    outline: none;
+    background-color: #86a6ff;
+    color:#fff;
+    cursor:pointer;
+    border-radius:0.03rem;
+}
+
+.button:hover{
+    background-color: #2254ff;
+}
+.right a:hover{
+    color:#e72955;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <%=require('html-loader!./layout/header-head.html')%>
+    <title><%= htmlWebpackPlugin.options.title%> -电商平台</title>
+    <!--<link rel="shortcut icon" href="./myMarket.ico" />-->
+</head>
+<body>
+<header>
+    <%=require('html-loader!./layout/header-nav-simple.html') %>
+</header>
+<div class="main">
+    <div class="container">
+        <div class="register">
+            <div class="user-title"><p>用户注册</p></div>
+            <div class="user-info">
+                <div class="user-control">
+                    <label for="user">
+                        用户名:&nbsp
+                    </label>
+               <span class="user-input">
+                   <i class="fa fa-user"></i>
+                   <input type="text" id="user" placeholder="请输入用户名"/>
+               </span>
+
+                </div>
+                <div class="user-control">
+                    <label for="pass">
+                        密码:&nbsp
+                    </label>
+               <span class="user-input">
+                   <i class="fa fa-lock"></i>
+                   <input type="password" id="pass" placeholder="请输入不小于6位数的密码"/>
+               </span>
+                </div>
+                <div class="user-control">
+                    <label for="opass">
+                        重复密码:&nbsp
+                    </label>
+               <span class="user-input">
+                   <i class="fa fa-lock"></i>
+                   <input type="password" id="opass" placeholder="请再次输入密码"/>
+               </span>
+                </div>
+                <div class="user-control">
+                    <label for="telephone">
+                        手机号:&nbsp
+                    </label>
+               <span class="user-input">
+                   <i class="fa fa-phone"></i>
+                   <input type="text" id="telephone" placeholder="请输入手机号"/>
+               </span>
+                </div>
+                <div class="user-control">
+                    <label for="email">
+                        邮箱:&nbsp
+                    </label>
+               <span class="user-input">
+                   <i class="fa fa-envelope"></i>
+                   <input type="text" id="email" placeholder="请输入邮箱"/>
+               </span>
+                </div>
+                <div class="user-control">
+                    <label for="question">
+                        提示问题:&nbsp
+                    </label>
+               <span class="user-input">
+                   <i class="fa fa-question-circle"></i>
+                   <input type="text" id="question" placeholder="请输入密码提示问题"/>
+               </span>
+                </div>
+                <div class="user-control">
+                    <label for="answer">
+                        答案:&nbsp
+                    </label>
+               <span class="user-input">
+                   <i class="fa fa-comment"></i>
+                   <input type="text" id="answer" placeholder="请输入邮箱"/>
+               </span>
+                </div>
+                <div class="control">
+                    <p class="info-msg"></p>
+                </div>
+                <div class="user-control">
+                    <label></label>
+                    <input type="button" class="button" value="免费注册"/>
+                </div>
+                <div class="clearfix ">
+                <span class="right">
+                       <a href="./login.html">已有账号？去登录>></a>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<%=  require('html-loader!./layout/footer.html')%>
+</body>
+</html>

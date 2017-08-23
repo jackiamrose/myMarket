@@ -1,0 +1,76 @@
+.nav-f{
+    width:100%;
+    font-size:0.12em;
+    height:0.4rem;
+    line-height:0.4rem;
+}
+
+
+.header{
+    background-color:#d1d1d1;
+    width:100%;
+    min-width:10.8rem;
+}
+.header-top{
+    margin:0 auto ;
+    width:10.8rem;
+}
+
+.right a{
+    cursor:pointer;
+    margin-left:0.05rem;
+    padding:0 0.03rem;
+
+}
+
+
+.user-info{
+    display:inline-block
+}
+
+.nav-zhuce{
+    color:#e72955;
+}
+
+.user .username{
+    color:#e72955;
+}
+.shopcar{
+    cursor: pointer;
+}
+.num{
+    color:#e72955;
+}
+
+
+
+.user span{
+    cursor:pointer;
+    margin-left:0.05rem;
+    padding:0 0.03rem;
+}
+
+.tuichu:hover{
+    color:#f00
+}
+.right a:hover{
+    color:#333;
+}
+
+.right a.nav-zhuce:hover{
+    color:#f00
+}
+
+.nav-pic{
+    display:inline-block;
+    position:relative;
+}
+
+.mymarket{
+    background: url('../../../image/liantu.png') no-repeat;
+    position:absolute;
+    width:0.63rem;
+    height:0.63rem;
+    right:0;
+    top:0.4rem;
+}

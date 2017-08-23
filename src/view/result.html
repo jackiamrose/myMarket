@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <%=require('html-loader!./layout/header-head.html')%>
+    <title><%= htmlWebpackPlugin.options.title%> -电商平台</title>
+    <!--<link rel="shortcut icon" href="./myMarket.ico" />-->
+</head>
+<body>
+<%=require('html-loader!./layout/header-nav-simple.html')%>
+<div class="main">
+    <div class="container con">
+        <div class="result-con  register-success">
+            <h1 class="h1-title">恭喜您，注册成功啦！</h1>
+            <div class="result-content">
+                <a href="./index.html" class="line-text link btn">回到首页</a>
+            </div>
+        </div>
+
+        <div class="result-con default-success">
+            <h1 class="h1-title">恭喜您，登录成功啦！</h1>
+            <div class="result-content">
+                <a href="./index.html" class="line-text link btn">回到首页</a>
+            </div>
+        </div>
+
+
+        <div class="result-con">
+            <h1 class="h1-title">恭喜您，下单成功啦！</h1>
+            <div class="result-content">
+                <a href="./index.html" class="line-text link btn">回到首页</a>
+            </div>
+        </div>
+
+        <div class="result-con resetPass-success">
+            <h1 class="h1-title">恭喜您，重置密码成功啦！</h1>
+            <div class="result-content">
+                <a href="./index.html" class="line-text link btn">回到首页</a>
+            </div>
+        </div>
+
+        <div class="result-con updatePass-success">
+            <h1 class="h1-title">恭喜您，更新密码成功啦！</h1>
+            <div class="result-content">
+                <a href="./index.html" class="line-text link btn">回到首页</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%=  require('html-loader!./layout/footer.html')%>
+</body>
+</html>

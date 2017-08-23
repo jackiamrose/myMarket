@@ -1,0 +1,7 @@
+{{#imgList}}
+    <div class="swiper-slide">
+        <a href="{{href}}">
+            <img src="{{url}}" alt="{{title}}"/>
+        </a>
+    </div>
+{{/imgList}}

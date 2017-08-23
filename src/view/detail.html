@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <%=require('html-loader!./layout/header-head.html')%>
+    <title><%= htmlWebpackPlugin.options.title%> -电商平台</title>
+    <!--<link rel="shortcut icon" href="./myMarket.ico" />-->
+</head>
+<body>
+<header>
+    <%=require('html-loader!./layout/header-nav.html') %>
+    <%=require('html-loader!./layout/header-input.html') %>
+</header>
+<div class="main">
+    <div class="container">
+
+    </div>
+</div>
+
+
+
+<%=  require('html-loader!./layout/footer.html')%>
+</body>
+</html>

@@ -1,0 +1,37 @@
+ <div class="con">
+    <div class="left-detail">
+        <ul>
+            <li class="big-detail-img"><img src="{{imageHost}}{{mainImage}}" alt="{{name}}"/></li>
+        </ul>
+        <ul>
+        {{#subImages}}
+            <li class="small-detail-img"><img src="{{imageHost}}{{.}}" alt="{{name}}"/></li>
+        {{/subImages}}
+        </ul>
+    </div>
+    <div class="right-detail">
+        <dl class="product">
+            <dt class="product-name">
+            <h1>{{name}}</h1>
+            </dt>
+            <dd class="product-title">{{subtitle}}</dd>
+            <dd class="product-oldprice">价格:&nbsp<span class="price"><del>￥{{price}}</del></span></dd>
+            <dd class="product-price">促销价:&nbsp <span>￥</span><span class="price">{{price}}</span></dd>
+            <dd class="product-num">库存:&nbsp <span>{{stock}}</span></dd>
+            <dd class="product-buyNum">数量:&nbsp<span class="minus"><i class="fa fa-minus"></i></span><input id="#input" type="number" minlength="1" maxlength="999" value="1"/><span class="plus"><i class="fa fa-plus"></i></span></dd>
+            <dd class="product-msg"><span><i class="fa fa-warning"></i>超出最大库存</span></dd>
+            <dd class="product-joinCar"><span class="button">加入购物车</span></dd>
+        </dl>
+    </div>
+</div>
+<div class="main-detail">
+    <ul>
+        <li><span>详细描述</span></li>
+    </ul>
+    <div class="detail-img">
+    {{#subImages}}
+        <img src="{{imageHost}}{{.}}" alt="{{name}}"/>
+     {{/subImages}}
+
+    </div>
+</div>

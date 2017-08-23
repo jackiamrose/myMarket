@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <%=require('html-loader!./layout/header-head.html')%>
+    <title><%= htmlWebpackPlugin.options.title%> -电商平台</title>
+    <!--<link rel="shortcut icon" href="./myMarket.ico" />-->
+</head>
+<body>
+<header>
+    <%=require('html-loader!./layout/header-nav-simple.html') %>
+</header>
+<div class="main">
+    <div class="container">
+        <div class="login">
+            <div class="user-title"><p>用户登录</p></div>
+            <div class="user-info">
+                <div class="user-control">
+                    <label for="user">
+                        用户名:&nbsp
+                    </label>
+               <span class="user-input">
+                   <i class="fa fa-user"></i>
+                   <input type="text" id="user" placeholder="请输入用户名"/>
+               </span>
+
+                </div>
+                <div class="user-control">
+                    <label for="pass">
+                        密码:&nbsp
+                    </label>
+               <span class="user-input">
+                   <i class="fa fa-lock"></i>
+                   <input type="password" id="pass" placeholder="请输入密码 "/>
+               </span>
+                </div>
+                <div class="control">
+                    <p class="info-msg"></p>
+                </div>
+                <div class="user-control">
+                    <label></label>
+                    <input type="button" class="button" value="登录"/>
+                </div>
+                <div class="clearfix">
+               <span class="left">
+                   <a href="./reset-pass.html">忘记密码</a>
+               </span>
+               <span class="right">
+                   <a href="./register.html">免费注册</a>
+               </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<%=  require('html-loader!./layout/footer.html')%>
+</body>
+</html>

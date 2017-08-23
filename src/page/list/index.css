@@ -1,0 +1,115 @@
+/*面包屑*/
+.brandNav{
+    background-color: #d1d1d1;
+    min-width:10.8rem;
+}
+
+.cont{
+    margin:0 auto 0.3rem ;
+    height:0.3rem;
+    line-height:0.3rem;
+}
+
+.nav-list a:last-child{
+    color:#e72955;
+}
+
+/*排序*/
+
+.sort{
+    padding:0.1rem 0;
+}
+
+.sort span{
+    display:inline-block;
+    padding:0.04rem 0.04rem;
+    width:0.65rem;
+    margin-right:0.05rem;
+    background-color: #e72955;
+    color:#fff;
+    text-align: center;
+    position:relative;
+    cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select:none;
+}
+
+.sort span:last-child{
+    padding-right:0.08rem;
+}
+
+.sort span.desc i{
+    transform:rotate(-180deg);
+}
+
+.sort span i{
+    position:absolute;
+    top:0.06rem;
+    right:0.02rem;
+}
+
+.product-list-ul{
+    margin-top:0.3rem;
+    font-size:0;
+    margin-bottom:0.2rem;
+}
+
+.product-list-li{
+    padding:0.05rem;
+    display:inline-block;
+    box-sizing:border-box;
+    width:18%;
+    font-size:0.16rem;
+    margin-right:2%;
+    margin-bottom:3%;
+    border:0.02rem solid transparent;
+}
+
+.img a{
+    display:inline-block;
+}
+.product-list-li .img img{
+    width:100%;
+    height:2.4rem;
+}
+
+
+.price span:first-child{
+    color:#e72955;
+    font-weight:600;
+    margin-top:0.03rem;
+    margin-bottom:0.02rem;
+}
+
+
+
+.title{
+    font-size:0.12rem;
+    line-height:0.2rem;
+    height:0.2rem;
+    overflow:hidden;
+}
+
+.product-list-li:hover{
+    border:0.02rem solid #e72955;
+}
+
+.title a:hover{
+    color:#e72955;
+}
+.err-msg{
+    font-size:0.18rem;
+    text-align:center;
+    font-weight:300;
+    line-height: 0.3rem;
+}
+
+
+
+
+
+
+
+

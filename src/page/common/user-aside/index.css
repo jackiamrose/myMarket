@@ -1,0 +1,26 @@
+.aside{
+    float:left;
+    width:1.8rem;
+    font-size:0.14rem;
+    min-height:200px;
+}
+
+.aside .aside-ul{
+
+}
+
+.aside-ul .aside-li{
+    text-align: left;
+    padding:0.06rem 0
+}
+
+.aside-ul .aside-li .active{
+    color:#f00!important;
+}
+
+.aside-ul .aside-li a.link:hover{
+    color:#f00;
+}
+
+
+

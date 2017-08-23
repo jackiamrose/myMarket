@@ -1,0 +1,11 @@
+
+<div class="info-edit">
+    <div class="info-control"><label for="username">用户名:&nbsp</label><span>{{username}}</span></div>
+    <div
+    class="info-control"><label for="telphone">手机号:&nbsp</label><span>{{phone}}</span><input id="telephone" placeholder="请输入手机号" type="text" value="{{phone}}"/></div>
+    <div class="info-control"><label for="email">邮箱:&nbsp</label><span>{{email}}</span><input id="email" placeholder="请输入正确的邮箱" type="text" value="{{email}}"/></div>
+    <div class="info-control"><label for="question">问题:&nbsp</label><span>{{question}}</span><input id="question" placeholder="请输入提示的问题" type="text" value="{{question}}"/></div>
+    <div class="info-control"><label for="answer">答案:&nbsp</label><span>{{answer}}</span><input id="answer" placeholder="请输入问题答案" type="text" value="{{answer}}"/></div>
+    </div>
+    <span class="edit">编辑</span>
+</div>

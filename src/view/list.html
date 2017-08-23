@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <%=require('html-loader!./layout/header-head.html')%>
+    <title><%= htmlWebpackPlugin.options.title%> -电商平台</title>
+    <!--<link rel="shortcut icon" href="./myMarket.ico" />-->
+    <link href="https://cdn.bootcss.com/Swiper/3.4.2/css/swiper.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <%=require('html-loader!./layout/header-nav.html') %>
+    <%=require('html-loader!./layout/header-input.html') %>
+</header>
+<div class="main">
+    <div class="brandNav">
+        <div class="container cont">
+            <div class="nav-list">
+                <a href="./index.html">首页</a>&nbsp > &nbsp<a href="" class="title"><%= htmlWebpackPlugin.options.title%></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sort">
+            <span class="active" data-type="default">默认排序</span><span class="asc" data-type="price"> 价格排序<i class="fa fa-arrow-up"></i></span>
+        </div>
+
+        <div class="product-list">
+
+        </div>
+
+        <div class="page">
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<%=  require('html-loader!./layout/footer.html')%>
+</body>
+</html>

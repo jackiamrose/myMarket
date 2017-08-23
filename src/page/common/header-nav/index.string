@@ -1,0 +1,12 @@
+{{#loginFlag}}
+<span class="user-info">
+    <a class="nav-denglu" href="./login.html">你好!请登录</a>
+    <a class="nav-zhuce" href="./register.html">免费注册</a>
+</span>
+{{/loginFlag}}
+{{^loginFlag}}
+<span class="user">
+    欢迎&nbsp<span class="username">a</span>!
+    <span class="tuichu">退出</span>
+</span>
+{{/loginFlag}}

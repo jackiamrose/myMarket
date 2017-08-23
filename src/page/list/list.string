@@ -1,0 +1,16 @@
+<ul class="product-list-ul clearfix">
+{{#list}}
+    <li class="product-list-li">
+       <div class="img">
+           <a href="./detail.html?productId={{id}}" target="_blank">
+               <img src="{{imageHost}}{{mainImage}}" alt="{{name}}"/>
+           </a>
+       </div>
+       <p class="price"><span>￥{{price}}</span></p>
+       <p class="title"><a href="./detail.html?productId={{id}}" title="{{name}}">{{name}}</a></p>
+    </li>
+{{/list}}
+{{^list}}
+    <p class="err-msg">很抱歉，实在找不到您要的商品。</p>
+{{/list}}
+</ul>

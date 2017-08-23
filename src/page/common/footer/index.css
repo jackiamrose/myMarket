@@ -1,0 +1,27 @@
+.footer{
+    width:100%;
+    min-width:10.8rem;
+    background-color: #d1d1d1;
+    padding-bottom:0.2rem;
+}
+
+.footer a:hover{
+    color:#333;
+}
+
+.links{
+    color:#999;
+    margin-top:0.3rem;
+    text-align: center;
+}
+
+.link{
+    padding:0 0.05rem;
+}
+
+.copyright{
+    color:#999;
+    text-align: center;
+    height:0.3rem;
+    line-height:0.3rem
+}

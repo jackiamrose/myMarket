@@ -1,0 +1,57 @@
+{{#usernameFlag}}
+    <div class="user-control">
+        <p class="userInfo-title">请输入用户名:</p>
+        <label for="user">
+            用户名:&nbsp
+        </label>
+        <span class="user-input">
+           <i class="fa fa-user"></i>
+           <input type="text" id="user" placeholder="请输入用户名" autocomplete="off"/>
+       </span>
+    </div>
+    <div class="control">
+        <p class="info-msg"></p>
+    </div>
+    <div class="user-control">
+        <label></label>
+        <input type="button" class="button" id="submitUser" value="下一步"/>
+    </div>
+{{/usernameFlag}}
+{{#answerFlag}}
+    <div class="user-control">
+        <p class="userInfo-title">密码提示问题是:<span class="question"></span></p>
+        <label for="answer">
+            答案:&nbsp
+        </label>
+        <span class="user-input">
+           <i class="fa fa-question-circle"></i>
+           <input type="text" id="answer" placeholder="请输入问题答案" autocomplete="off"/>
+       </span>
+    </div>
+    <div class="control">
+        <p class="info-msg"></p>
+    </div>
+    <div class="user-control">
+        <label></label>
+        <input type="button" class="button"  id="submitQuestion" value="下一步"/>
+    </div>
+{{/answerFlag}}
+{{#passwordFlag}}
+    <div class="user-control">
+        <p class="userInfo-title">请输入新密码</p>
+        <label for="password">
+            密码:&nbsp
+        </label>
+        <span class="user-input">
+           <i class="fa fa-lock"></i>
+           <input type="password"  id="password" placeholder="请输入密码" autocomplete="off"/>
+        </span>
+    </div>
+    <div class="control">
+        <p class="info-msg"></p>
+    </div>
+    <div class="user-control">
+        <label></label>
+        <input type="button" class="button" id="submitPass" value="下一步"/>
+    </div>
+{{/passwordFlag}}
